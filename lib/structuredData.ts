@@ -105,7 +105,7 @@ export function breadcrumbGraph(
   };
 }
 
-/** The three service lines, as an offer catalogue on the services page. */
+/** The four service lines, as an offer catalogue on the services page. */
 export function servicesGraph(): JsonLdNode {
   return {
     '@context': 'https://schema.org',

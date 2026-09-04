@@ -7,6 +7,6 @@ export const contentType = ogContentType;
 export default function Image() {
   return renderOgImage({
     title: 'We turn long-form content into short-form performance.',
-    subtitle: 'Clipping · Paid media · Content strategy',
+    subtitle: 'Clipping · UGC · Paid media · Content strategy',
   });
 }

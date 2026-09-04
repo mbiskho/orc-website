@@ -13,7 +13,7 @@ export const siteTagline = 'Long-form content into short-form performance';
 export const contactEmail = 'hello@orcacast.com';
 
 export const siteDescription =
-  'A media agency that turns podcasts, livestreams, and interviews into vertical clips, runs paid campaigns on Meta and TikTok, and builds themed social pages.';
+  'A media agency that cuts podcasts and livestreams into vertical clips, films UGC with real creators, runs Meta and TikTok campaigns, and grows themed pages.';
 
 /** Profiles referenced by the Organization schema's sameAs. */
 export const socialProfiles = [

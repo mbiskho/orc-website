@@ -16,7 +16,7 @@ export default function Footer() {
             <Logo variant="light" />
             <p className="mt-5 text-sm leading-relaxed text-navy-body">
               A media agency turning long-form content into short-form
-              performance. Clipping, paid media, and social pages.
+              performance. Clipping, UGC, paid media, and social pages.
             </p>
           </div>
 

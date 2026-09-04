@@ -8,9 +8,9 @@ import ScrollReveal from '@/components/ScrollReveal';
 import { services, processDetailed } from '@/lib/content/services';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Clipping, Paid Media, and Content Strategy',
+  title: 'Clipping, UGC, Paid Media, and Content Strategy',
   description:
-    'Clipping, paid media, and content strategy. What each service includes, who it is for, and how an engagement runs. Retainer-based, scoped per client.',
+    'Clipping, UGC, paid media, and content strategy. What each service includes, who it is for, and how an engagement runs. Retainer-based, scoped per client.',
   path: '/services',
 });
 
@@ -33,11 +33,12 @@ export default function ServicesPage() {
               id="services-title"
               className="mt-6 max-w-3xl text-4xl font-extrabold leading-[1.08] tracking-tight text-ink md:text-6xl"
             >
-              Three service lines, built to run together.
+              Four service lines, built to run together.
             </h1>
             <p className="mt-7 max-w-xl text-base leading-relaxed text-graphite md:text-lg">
-              Clipping makes the assets. Paid media puts weight behind the ones
-              that work. Content strategy gives them somewhere to live.
+              Clipping makes assets out of the footage you have. UGC makes the
+              footage you do not. Paid media puts weight behind whichever ones
+              win. Content strategy gives them somewhere to live.
             </p>
           </ScrollReveal>
         </div>

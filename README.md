@@ -165,7 +165,7 @@ that renderer avoids grid and sets `display: flex` explicitly.
 | Page | Schema |
 |---|---|
 | All | `Organization` (with all four offices, `foundingDate`, `sameAs`, `contactPoint`) + `WebSite` |
-| Services | `BreadcrumbList` + `OfferCatalog` of the three `Service` entries |
+| Services | `BreadcrumbList` + `OfferCatalog` of the four `Service` entries |
 | Use cases | `BreadcrumbList` |
 | About | `BreadcrumbList` + four `ProfessionalService` nodes with `PostalAddress` and `GeoCoordinates` |
 

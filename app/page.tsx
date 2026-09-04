@@ -27,7 +27,7 @@ export default function HomePage() {
               id="services-heading"
               className="mt-8 max-w-2xl text-3xl font-extrabold tracking-tight text-ink md:text-4xl"
             >
-              Three things, done properly.
+              Four things, done properly.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-graphite">
               We keep the list short so the work stays good. Most clients start
@@ -35,7 +35,7 @@ export default function HomePage() {
             </p>
           </ScrollReveal>
 
-          <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((service, index) => (
               <ScrollReveal key={service.slug} delay={index * 90} className="h-full">
                 <ServiceCard service={service} index={index} />

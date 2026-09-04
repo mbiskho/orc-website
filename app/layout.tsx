@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'short-form video agency',
     'vertical video editing',
     'TikTok ads agency',
+    'UGC creative agency',
+    'user generated content ads',
     'Meta ads creative',
     'social media page growth',
     'content repurposing',

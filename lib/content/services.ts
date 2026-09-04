@@ -1,4 +1,8 @@
-export type ServiceSlug = 'clipping' | 'paid-media' | 'content-strategy';
+export type ServiceSlug =
+  | 'clipping'
+  | 'ugc'
+  | 'paid-media'
+  | 'content-strategy';
 
 export interface Service {
   slug: ServiceSlug;
@@ -32,6 +36,24 @@ export const services: Service[] = [
     ],
     forWho:
       'Podcasters, streamers, and interview shows sitting on a back catalogue that nobody is watching.',
+  },
+  {
+    slug: 'ugc',
+    name: 'UGC',
+    summary:
+      'Ads filmed by real creators, briefed as angles and delivered with the rights signed over.',
+    description:
+      'When there is nothing to cut, we make it. Creators film to a brief we write — their room, their phone, your product — because the format stops working the moment it looks bought. Every batch comes back as five or six angles rather than one polished film, since a single video gives a paid account nothing to test.',
+    included: [
+      'Creator sourcing, vetting, and rates negotiated on your behalf',
+      'Scripts and shot briefs, one per angle',
+      'Shoots run end to end, reshot when a take misses',
+      'Editing, captions, and a cut sized for each platform',
+      'Usage rights and whitelisting agreed in writing, before filming',
+      'A fixed number of videos a month, delivered on a set date',
+    ],
+    forWho:
+      'Brands with a product worth showing and no footage of anyone using it.',
   },
   {
     slug: 'paid-media',
